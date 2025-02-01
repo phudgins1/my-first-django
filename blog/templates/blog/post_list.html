@@ -9,19 +9,12 @@
         <a href="/">Pete's Blag</a>
       </h1>
     </header>
-    <article>
-      <time>published: 01.31.2024, 09:24</time>
-      <h2><a href="">First Post</a></h2>
-      <p>
-        In the middle of the night i crawl onto your chest and purr gently to help you sleep blow up sofa in 3 seconds scratch at the door then walk away mesmerizing birds jump on counter removed by human jump on counter again removed by human meow before jumping on counter this time to let the human know am coming back.
-      </p>
-    </article>
-    <article>
-      <time>published: 01.31.2024, 09:26</time>
-      <h2><a href="">Second Post</a></h2>
-      <p>
-        Chase little red dot someday it will be mine! cat milk copy park pee walk owner escape bored tired cage droppings sick vet vomit or shake treat bag.
-      </p>
-    </article>
+    {% for post in posts %}
+      <article>
+        <time>published: {{ post.published_date }}</time>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+      </article>
+    {% endfor %}
   </body>
 </html>
