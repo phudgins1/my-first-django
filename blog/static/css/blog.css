@@ -1,0 +1,67 @@
+.page-header {
+  background-color: #00205b;
+  margin-top: 0;
+  margin-bottom: 42px;
+  padding: 20px 20px 20px 42px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+  color: #fff;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Titillium Web';
+}
+
+.date {
+  color: #818181;
+}
+
+.save {
+  float: right;
+}
+
+.post-form textarea,
+.post-form input {
+  width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+  color: #fff;
+  float: right;
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+.post {
+  margin-bottom: 68px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+  color: #000;
+}
+
+.post > .date,
+.post > .actions {
+  float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+  color: #00205b;
+  background: none;
+  border-color: #00205b;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #00205b;
+}
